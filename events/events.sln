@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintManager", "PrintManager\PrintManager.csproj", "{98763A27-B5D7-4F02-AC2C-E1EC11D10E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterTest", "PrinterTest\PrinterTest.csproj", "{B40A3D13-D28E-46B2-A243-F8300517F95C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98763A27-B5D7-4F02-AC2C-E1EC11D10E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98763A27-B5D7-4F02-AC2C-E1EC11D10E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98763A27-B5D7-4F02-AC2C-E1EC11D10E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98763A27-B5D7-4F02-AC2C-E1EC11D10E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40A3D13-D28E-46B2-A243-F8300517F95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A3D13-D28E-46B2-A243-F8300517F95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A3D13-D28E-46B2-A243-F8300517F95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A3D13-D28E-46B2-A243-F8300517F95C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
