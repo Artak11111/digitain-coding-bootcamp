@@ -29,8 +29,8 @@ namespace AsyncWPF
         {
             InitializeComponent();
 
-            Progress.Minimum = 0;
-            Progress.Maximum = 101;
+            Progress.Minimum = 1;
+            Progress.Maximum = 100;
 
             worker.WorkerReportsProgress = true;
             worker.WorkerSupportsCancellation = true;
@@ -72,7 +72,14 @@ namespace AsyncWPF
 
         private void buttonStart_Click(object sender, RoutedEventArgs e)
         {
-            worker.RunWorkerAsync();
+            try
+            {
+                worker.RunWorkerAsync();
+            }
+            catch
+            {
+                MessageBox.Show("Cancel current procces to start new one.");
+            }        
         }
         private void buttonStop_Click(object sender, RoutedEventArgs e)
         {
